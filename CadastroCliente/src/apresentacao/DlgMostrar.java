@@ -35,8 +35,9 @@ String []coluna={"codigo"};
            for(int i=0;i<lista.size()&& lista.get(i)!=null;i++){
                tabela.setValueAt(lista.get(i).getCodigo(),i,0);
                tabela.setValueAt(lista.get(i).getNome(),i,1);
-               tabela.setValueAt(lista.get(i).getData(),i,2);
-                tabela.setValueAt(lista.get(i).getConta(),i,3);
+               tabela.setValueAt(lista.get(i).getData(),i,3);
+                tabela.setValueAt(lista.get(i).getConta(),i,2);
+                tabela.setValueAt(lista.get(i).getDeposito(),i,4);
                 
            }
           
